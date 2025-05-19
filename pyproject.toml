@@ -1,0 +1,15 @@
+[project]
+name = "urlsdigest"
+version = "0.1.0"
+description = "Crawl a list of URLs and generate a markdown digest of their contents."
+authors = [
+    { name = "Your Name", email = "your.email@example.com" }, # Replace with your details
+]
+readme = "README.md"
+requires-python = ">=3.12.7"
+dependencies = [
+    "crawl4ai"
+]
+
+[project.scripts]
+urlsdigest = "urls_digest:cli"
